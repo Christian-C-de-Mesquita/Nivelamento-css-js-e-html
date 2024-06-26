@@ -1,0 +1,40 @@
+/*** Essse é um comentário */ 
+
+:root {
+    --bg--red: red;
+    --bg--black: #000;
+    --bg--green: green;
+    --bg--yellow: yellow;
+}
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var( --bg--black);
+}
+h1 {
+    color: #fff;
+}
+div {
+    color: gray;
+    margin: 20px;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+#green {
+    background-color: var( --bg--green);
+}
+#yellow {
+    background-color: var( --bg--yellow);
+}
+#red {
+    background-color: var( --bg--red);
+}
+

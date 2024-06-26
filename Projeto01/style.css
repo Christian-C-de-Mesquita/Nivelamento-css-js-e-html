@@ -1,0 +1,46 @@
+body {
+    background-color: darkviolet;
+}
+h1 {
+    color: white;
+    font-size: 30px;
+}
+.p-class {
+    padding: 15px;
+    transition: 1s;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 7px;    
+    background-color: aquamarine;
+}
+.p-class:hover {
+    cursor: pointer;
+    font-size: 20px;
+    background-color: yellow;
+}
+#p-id {
+    color: red;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 900;
+    border-radius: 7px;
+    background-color: yellow;
+}
+.box {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    transition: 1s;
+}
+.box:hover {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: blue;
+}
